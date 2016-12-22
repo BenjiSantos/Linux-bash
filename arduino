@@ -1,0 +1,8 @@
+#!/bin/bash
+#Creamos un script para ejecutar ide arduino en la terminal con solo colocar "arduino"
+#Movemos la carpeta de nuestro arduino descargado a donde deseemos y esa es la ruta que ejecutaremos en el script
+#Iremos a la ruta cd /usr/local/bin/ y usaremos sudo nano arduino ( o como le quieras llamar a tu archivo, es así como ejecutaras en la terminal) una vez en nano o usando sudo gedit arduino, como deseen, copian y pegan el siguiente código, guardan y al usar "arduino" en la terminal no tendrán permisos, usan sudo chmod +x arduino y listo.
+
+echo Abriendo el IDE de Arduino -- Programemos 
+cd /home/dev/Programas/arduino-1.6.13
+./arduino
