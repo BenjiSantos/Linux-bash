@@ -1,0 +1,4 @@
+#!/bin/bash
+echo Abriendo el IDE Netbeans
+cd /usr/local/netbeans-8.2/bin
+./netbeans
