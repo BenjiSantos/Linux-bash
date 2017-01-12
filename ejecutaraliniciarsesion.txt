@@ -1,5 +1,6 @@
 #Hacer que este script se ejecute automáticamente al iniciar la sesion.
 
+
 Basta con modificar el archivo rc.local:
 sudo nano /etc/init.d/rc.local 
 Y añadirle la ejecucion del script: 
