@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Abriendo tu navegador papá Benji
+cd /usr/lib/firefox
+./firefox.sh
+
